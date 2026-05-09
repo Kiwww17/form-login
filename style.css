@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(145, 242, 93);
+    font: serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-color: rgb(30, 96, 129);
+    max-width: 500px;
+    height: 80vh;
+    margin: 8px;
+    padding: 16px;
+    border-radius: 16px;
+    -webkit-box-shadow: -1px 5px 19px 9px rgba(0,0,0,0.64); 
+    box-shadow: -1px 5px 19px 9px rgba(0,0,0,0.64);
+}
+.container h2{
+    text-align: center;
+    display: block;
+    position: relative;
+    top: -50px;
+}
+.ul-li{
+    display: flex;
+    justify-content: center;
+}
+
+.ul-li li {
+    list-style: none;
+}
+
+.ul-li li:nth-child(2){
+    /* background-color: red; */
+    display: inline;
+}
+
+
+#email-input{
+    width: 100%;
+    margin: 8px auto;
+    height: 30px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+
+#email-input:hover{
+    background-color: #ffffffc2;
+}
+
+#pass-input{
+    width: 100%;
+    margin: 8px auto;
+    height: 30px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+
+#pass-input:hover{
+    background-color: #ffffffc2;
+}
+
+#btn {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #333;
+    transition: all 0.3s;
+}
+
+#btn:hover{
+    border: 2px solid #333;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+#btn:active{
+    background-color: hsl(0, 0%, 90%);
+    color: hsl(0, 0%, 50%);
+}
+
+.lable {
+   font-weight: bold;
+   text-decoration: underline;
+   color: white;
+}
+
+#pass-p {
+    font-size: 0.7em;
+    color: hsl(9, 98%, 48%);
+}
+
+#email-p {
+    font-size: 0.7em;
+    color: hsl(9, 98%, 48%);
+}
+
+#sh-label{
+    font-size: 0.8em;
+    margin: 8px auto;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+}
